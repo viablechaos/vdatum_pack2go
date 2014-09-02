@@ -1,7 +1,9 @@
 vdatum_pack2go
 ==============
 Usage:
+
 Packaging vdautm for release, including:
+
 Name | Description
 -----| -----------
 vdatum_all.zip | everything vdatum
