@@ -2,7 +2,7 @@ vdatum_pack2go
 ==============
 Usage:
 
-Packaging vdautm for release, including:
+Packaging vdatum, including:
 
 Name | Description
 -----| -----------
@@ -12,4 +12,6 @@ vdatum_geoidxx.zip | GEOIDxx model
 vdatum_nadcon.zip | NADCON transformation grids
 vdatum_vertcon.zip | VERTCON transformation grids
 tidal transformation grids | For example, FLsouth01_8301.zip
-vdatum_regionalmmddyyyy.zip | Tidal transformation grids only
+vdatum_regionalmmddyyyy.zip | Tidal transformation grids only. Release date: mmddyyyy
+
+This is a  

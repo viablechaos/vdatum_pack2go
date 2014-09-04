@@ -1,3 +1,36 @@
+/*
+ * Vertical Datum Transformation Project
+ * DoC/NOAA/National Ocean Service
+ * http://vdatum.noaa.gov
+ *
+ * VDatum is a free software tool being developed jointly by NOAA's National Geodetic
+ * Survey (NGS), Office of Coast Survey (OCS), and Center for Operational Oceanographic
+ * Products and Services (CO-OPS). VDatum is designed to vertically transform
+ * geospatial data among a variety of tidal, orthometric and ellipsoidal vertical
+ * datums - allowing users to convert their data from different horizontal/vertical
+ * references into a common system and enabling the fusion of diverse geospatial
+ * data in desired reference levels.
+ *
+ * The Vertical Datum Transformation software and its data resides in the public
+ * domain and may be used without restriction. NOAA/NOS requested that in any
+ * subsequent use of this work, NOAA/NOS be given appropriate acknowledgement. The names
+ * NOAA, NOS and/or VDatum, however, may not be used in any advertising or publicity 
+ * to endorse or promote any products or commercial entity unless specific written
+ * permission is obtained from NOAA/NOS. The user also understands that NOAA/NOS is 
+ * not obligated to provide the user with any support, consulting, training or assistance
+ * of any kind with regard to the use, operation and performance of this software
+ * nor to provide the user with any updates, revisions, new versions or "bug fixes".
+ *
+ * This program and supporting information is furnished by the Government of the
+ * United States of America. The program is distributed "AS IS", WITHOUT ANY WARRANTY
+ * OF ANY KIND, express or implied, including but not limited to the warranties of
+ * merchantability, fitness for a particular purpose and noninfringement. In no event
+ * shall the U.S. Government, the Department of Commerce, NOAA, NOS, and any of
+ * their employees, contractors, subcontractors be liable for any claim, damages or
+ * other liability resulting from any use of this program.
+ *
+ * For more information, please visit: http://vdatum.noaa.gov
+ */
 package vdatum.noaa.gov.pack2go;
 
 import java.io.BufferedInputStream;
@@ -9,10 +42,9 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
 /**
- * Packaging VDatum for releasing at vdatum website.
- * 
- *
- * @author Bang.Le
+ * Packaging VDatum for the warped wild web.
+ * @since 02SEP2014
+ * @author Băng.Lê
  */
 public class Pack2Go {
 
